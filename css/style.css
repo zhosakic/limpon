@@ -1,0 +1,106 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #7581a1;
+    font-size: 16px;
+    line-height: 26px;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #192b59;
+}
+.nav {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6e7ea9;
+    text-transform: uppercase;
+}
+.btn-free {
+    color: #fff;
+    font-weight: 400;
+    background-color: #1085e4;
+}
+.grid h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #192b59;
+}
+.grid h2 span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1085e4;
+    display: block;
+}
+.grid-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #192b59;
+}
+.grid-item a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1085e4;
+}
+.page-subscribe h2 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+}
+.page-subscribe h2 span {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #00bffe;
+    display: block;
+}
+.page-subscribe p {
+    color: #dfe8ff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.page-software h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+}
+.page-software dt {
+    color: #5a6789;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.page-stat h2 {
+    color: #192b59;
+    font-size: 50px;
+    font-weight: 400;
+}
+.page-stat h2 span {
+    color: #1085e4;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.page-stat li {
+    color: #1085e4;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.page-stat li span {
+    color: #bacbdc;
+    font-size: 60px;
+}
+.page-app h2 {
+    color: #192b59;
+    font-size: 50px;
+    font-weight: 600;
+}
+.now p {
+    color: #c4d2dd;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
