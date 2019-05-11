@@ -188,6 +188,8 @@
                 <li><span>120</span>awards</li>
             </ul>
         </div>
+        <div class="object-circle"></div>
+        <div class="object-rhombus"></div>
     </div>
 
     <div class="page-app">
@@ -337,19 +339,37 @@
                     <img class="avatar" src="img/Ricardo.png" alt="Ricardo">
                     <p class="position">founder</p>
                     <p class="name">Ricardo T. Obrien</p>
-                    <button class="btn-more" type="button"></button>
+                    <button class="btn-team btn-more btn-ricardo" type="button"><span></span></button>
+                    <ul class="social-team social-ricardo" style="display: none">
+                        <li><a href="" target="_blank" class="btn-team btn-fb"><span></span></a></li>
+                        <li><a href="" target="_blank" class="btn-team btn-tw"><span></span></a></li>
+                        <li><a href="" target="_blank" class="btn-team btn-be"><span></span></a></li>
+                        <li><a href="" target="_blank" class="btn-team btn-web"><span></span></a></li>
+                    </ul>
                 </div>
                 <div class="box-team-item">
                     <img class="avatar" src="img/alberto.png" alt="Alberto">
                     <p class="position">ceo</p>
                     <p class="name">Alberto Del Rio</p>
-                    <button class="btn-more" type="button"></button>
+                    <button class="btn-team btn-more btn-alberto" type="button"><span></span></button>
+                    <ul class="social-team social-alberto" style="display: none">
+                        <li><a href="" target="_blank" class="btn-team btn-fb"><span></span></a></li>
+                        <li><a href="" target="_blank" class="btn-team btn-tw"><span></span></a></li>
+                        <li><a href="" target="_blank" class="btn-team btn-be"><span></span></a></li>
+                        <li><a href="" target="_blank" class="btn-team btn-web"><span></span></a></li>
+                    </ul>
                 </div>
                 <div class="box-team-item">
                     <img class="avatar" src="img/alva.png" alt="Alva">
                     <p class="position">designer</p>
                     <p class="name">Thomas Alva Adison</p>
-                    <button class="btn-more" type="button"></button>
+                    <button class="btn-team btn-more btn-alva" type="button"><span></span></button>
+                    <ul class="social-team social-alva" style="display: none">
+                        <li><a href="" target="_blank" class="btn-team btn-fb"><span></span></a></li>
+                        <li><a href="" target="_blank" class="btn-team btn-tw"><span></span></a></li>
+                        <li><a href="" target="_blank" class="btn-team btn-be"><span></span></a></li>
+                        <li><a href="" target="_blank" class="btn-team btn-web"><span></span></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -374,6 +394,28 @@
             <li><a href="" target="_blank"></a></li>
         </ul>
     </div>
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $(".btn-ricardo").click(function(){
+                $(".btn-ricardo").hide();
+                $(".social-ricardo").fadeIn();
+            });
+            $(".btn-alberto").click(function(){
+                $(".btn-alberto").hide();
+                $(".social-alberto").fadeIn();
+            });
+            $(".btn-alva").click(function(){
+                $(".btn-alva").hide();
+                $(".social-alva").fadeIn();
+            });
+        });
+    </script>
 
 </body>
 </html>
