@@ -22,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,800,800i" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
     <div class="page-header">
@@ -373,25 +374,34 @@
         </div>
     </div>
     <div class="page-form">
-        <h2>Start Your Free Trail No Need Credit Card.</h2>
-        <form action="">
-            <input type="text" placeholder="Enter your name here">
-            <input type="email" placeholder="Enter your email here">
-            <textarea name="text" placeholder="Enter your message here"></textarea>
-            <button type="submit" class="btn btn-primary"><span></span>submit now</button>
-        </form>
+        <div class="flex-form wrap">
+            <img src="img/form-page-screen.png" alt="screen">
+            <div class="contact-form-input">
+                <h2>Start Your Free Trail No Need Credit Card.</h2>
+                <form class="contact-form" action="">
+                    <div class="contact-form-item contact-form-name"><input type="text" placeholder="Enter your name here"><span><i class="fas fa-user"></i></span></div>
+                    <div class="contact-form-item contact-form-mail"><input type="email" placeholder="Enter your email here"><span><i class="fas fa-envelope"></i></span></div>
+                    <div class="contact-form-item contact-form-text"><textarea name="text" placeholder="Enter your message here"></textarea><span><i class="fas fa-pen"></i></span></div>
+                    <button type="submit" class="btn btn-primary"><span></span><i class="fas fa-paper-plane"></i> submit now</button>
+                </form>
+            </div>
+        </div>
     </div>
     <div class="footer">
-        <p>Made With Love & Copyright By - <a href="">limpon</a></p>
-        <ul class="social">
-            <li><a href="" target="_blank"></a></li>
-            <li><a href="" target="_blank"></a></li>
-            <li><a href="" target="_blank"></a></li>
-            <li><a href="" target="_blank"></a></li>
-            <li><a href="" target="_blank"></a></li>
-            <li><a href="" target="_blank"></a></li>
-        </ul>
+        <div class="wrap flex-footer">
+            <p>Made With Love & Copyright By - <a href="">limpon</a></p>
+            <ul class="social">
+                <li><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="" target="_blank"><i class="fab fa-behance"></i></a></li>
+                <li><a href="" target="_blank"><i class="fab fa-behance"></i></a></li>
+                <li><a href="" target="_blank"><i class="fab fa-behance"></i></a></li>
+            </ul>
+        </div>
+
     </div>
+
+
 
     <script
             src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">

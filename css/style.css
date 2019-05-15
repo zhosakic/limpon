@@ -3,6 +3,9 @@ body {
     color: #7581a1;
     font-size: 16px;
     line-height: 26px;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;
@@ -831,7 +834,7 @@ a.video-app {
     text-align: center;
     background-image: url("../img/team-bg.png");
     background-repeat: no-repeat;
-    padding: 81px 0;
+    padding: 81px 0 121px;
 }
 .page-team h2 {
     color: #fff;
@@ -956,4 +959,90 @@ a.video-app {
     padding: 0;
     margin: 0;
     justify-content: space-between;
+}
+.page-form {
+    background-image: url("../img/form-bg.png");
+    background-repeat: no-repeat;
+    padding: 103px 0 122px;
+}
+.page-form h2 {
+    line-height: 60px;
+    letter-spacing: -1.5px;
+    margin-bottom: 52px;
+    margin-top: 0;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input, .contact-form textarea {
+    font-size: 14px;
+    border: 2px solid #dce4ec;
+    border-radius: 35px;
+    padding: 25px 80px 25px 37px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+.contact-form textarea {
+    height: 161px;
+    resize: none;
+    margin-bottom: 9px;
+}
+.flex-form {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    align-items: center;
+}
+.flex-form img {
+    margin-left: -23px;
+    margin-right: 65px;
+}
+.contact-form-input {
+    width: 513px;
+}
+
+.contact-form-item {
+    margin-bottom: 20px;
+}
+.contact-form-item {
+    position: relative;
+}
+.contact-form-item span {
+    line-height: 0;
+    font-size: 14px;
+    position: absolute;
+    top: 27px;
+    right: 40px;
+}
+.contact-form ::-webkit-input-placeholder, .contact-form textarea ::-webkit-input-placeholder {color:#bec4d3;}
+.contact-form ::-moz-placeholder, .contact-form textarea ::-moz-placeholder {color:#bec4d3;}/* Firefox 19+ */
+.contact-form :-moz-placeholder, .contact-form textarea :-moz-placeholder {color:#bec4d3;}/* Firefox 18- */
+.contact-form :-ms-input-placeholder, .contact-form textarea :-ms-input-placeholder {color:#bec4d3;}
+
+/*footer*/
+.footer {
+    background-color: #192b59;
+    padding: 5px 0 5px 0;
+}
+.footer li {
+    list-style-type: none;
+}
+.footer .flex-footer a {
+    text-transform: uppercase;
+    color: #1085e4;
+}
+.footer .social a {
+    color: white;
+    margin-left: 22px;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
 }
