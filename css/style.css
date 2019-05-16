@@ -1033,9 +1033,13 @@ a.video-app {
     text-transform: uppercase;
     color: #1085e4;
 }
+
 .footer .social a {
     color: white;
     margin-left: 22px;
+}
+.footer .social a:hover {
+    color: #1085e4;
 }
 
 .flex-footer {
